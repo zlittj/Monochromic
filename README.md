@@ -3,7 +3,7 @@ A custom theme for Jellyfin mediaserver created using CSS overrides.
 
 To use the theme copy paste the line below into "Dashboard>General>Custom CSS" and click save, it will apply immediately server-wide to all users on top of any theme they may be using. To remove the theme, clear the "Custom CSS" field and then click save.
 ```css
-@import url('https://ctalvio.github.io/Monochromic/default_style.css');
+@import url('https://zlittj.github.io/Monochromic/default_style.css');
 ```
 
 NOTE: This may not work when using reverse proxy, check below the screenshots for more info.
@@ -23,19 +23,19 @@ NOTE: This may not work when using reverse proxy, check below the screenshots fo
 There are some additional options, that allow for an accent color, or removed rounding. These are added immediately after the default import line.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/sharp_style.css');
+@import url('https://zlittj.github.io/Monochromic/sharp_style.css');
 ```
 
 Removes corner rounding. In fact, squares off  every rounded corner JF ever had.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/jfblue_style.css');
+@import url('https://zlittj.github.io/Monochromic/jfblue_style.css');
 ```
 
 Restore some of the jellyfin blue accenting.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/customcolor_style.css');
+@import url('https://zlittj.github.io/Monochromic/customcolor_style.css');
 :root {--accent: replaceme;}
 :root {--hoveraccent: replaceme80;}
 ```
